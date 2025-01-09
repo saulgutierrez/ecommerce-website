@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/navbar.css">
-    <title>Games DB</title>
+    <title>eShop</title>
 </head>
 <body>
     <nav>
@@ -32,11 +32,14 @@
         <li>
             <a href="#">
                 <div>Devoluciones</div>
-                <div>y Pedidoa</div>
+                <div>y Pedidos</div>
             </a>
         </li>
         <li>
             <a href="#">
+                <div class="imgBox">
+                    <img src="../public/svg/shopping-cart.svg" alt="">
+                </div>
                 <div>Carrito</div>
             </a>
         </li>
