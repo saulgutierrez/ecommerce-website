@@ -29,6 +29,20 @@
             </a>
             <div class="float-menu hidden">
                 <a href="" class="login-btn">Identicarse</a>
+                <div class="newcomer-link">¿Eres un cliente nuevo? <a href="#">Empieza aquí</a></div>
+                <hr class="div-line">
+                <div class="account-content">
+                    <div>
+                        <h1>Listas</h1>
+                        <a href="">Crear una wishlist</a>
+                    </div>
+                    <div>
+                        <h1>Mi cuenta</h1>
+                        <a href="">Mi cuenta</a>
+                        <a href="">Mis pedidos</a>
+                        <a href="">Mis recomendaciones</a>
+                    </div>
+                </div>
             </div>
         </li>
         <li>
