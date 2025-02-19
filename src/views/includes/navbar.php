@@ -23,11 +23,13 @@
             </button>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="menu">
                 <div>Hola, identificate</div>
                 <div>Cuenta y Listas</div>
             </a>
-
+            <div class="float-menu hidden">
+                <a href="" class="login-btn">Identicarse</a>
+            </div>
         </li>
         <li>
             <a href="#">
@@ -44,5 +46,6 @@
             </a>
         </li>
     </nav>
+    <script src="../src/ui/navbar.js"></script>
 </body>
 </html>
