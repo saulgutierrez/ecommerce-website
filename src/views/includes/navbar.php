@@ -29,7 +29,7 @@
             </a>
             <div class="float-menu hidden">
                 <a href="../src/views/login.php" class="login-btn">Identicarse</a>
-                <div class="newcomer-link">¿Eres un cliente nuevo? <a href="">Empieza aquí</a></div>
+                <div class="newcomer-link">¿Eres un cliente nuevo? <a href="../src/views/sign-up.php">Empieza aquí</a></div>
                 <hr class="div-line">
                 <div class="account-content">
                     <div>
