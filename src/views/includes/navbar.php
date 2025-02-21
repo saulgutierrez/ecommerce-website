@@ -28,8 +28,8 @@
                 <div>Cuenta y Listas</div>
             </a>
             <div class="float-menu hidden">
-                <a href="" class="login-btn">Identicarse</a>
-                <div class="newcomer-link">¿Eres un cliente nuevo? <a href="#">Empieza aquí</a></div>
+                <a href="../src/views/login.php" class="login-btn">Identicarse</a>
+                <div class="newcomer-link">¿Eres un cliente nuevo? <a href="">Empieza aquí</a></div>
                 <hr class="div-line">
                 <div class="account-content">
                     <div>
