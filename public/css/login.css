@@ -97,3 +97,19 @@ form input[type=submit] {
     font-size: 1.4rem;
     border-radius: 30px;
 }
+
+summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icono {
+    width: 16px; /* Tamaño del icono */
+    margin-right: 8px;
+    transition: transform 0.3s ease; /* Animación para girar */
+}
+
+details[open] .icono {
+    transform: rotate(180deg); /* Gira cuando está abierto */
+}

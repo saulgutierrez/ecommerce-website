@@ -21,8 +21,10 @@
         <input type="text" name="email">
         <input type="submit" value="Continuar" class="email-button"></input>
         <details>
-            <summary>¿Necesitas ayuda?</summary>
-            <p>¿Olvidaste tu contraseña</p>
+            <summary>
+                <img src="../../public/svg/down-arrow.svg" alt="Icono" class="icono"> ¿Necesitas ayuda?
+            </summary>
+            <p>¿Olvidaste tu contraseña?</p>
             <p>Otros problemas para iniciar sesión</p>
         </details>
         <div class="message" id="message"></div>
