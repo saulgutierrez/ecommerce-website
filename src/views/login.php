@@ -16,8 +16,8 @@
         <div>eShop</div>
     </a>
     <form action="login-password.php" method="POST">
-        <label for="">Iniciar sesión</label>
-        <label for="email">Direccion de email o numero de teléfono móvil</label>
+        <label for="" class="title">Iniciar sesión</label>
+        <label for="email" class="email-text">Direccion de email o numero de teléfono móvil</label>
         <input type="text" name="email">
         <input type="submit" value="Continuar" class="email-button"></input>
         <details>
@@ -27,8 +27,10 @@
         </details>
         <div class="message" id="message"></div>
     </form>
-    <p>¿Eres nuevo en eShop?</p>
-    <a href="sign-up.php">Crear tu cuenta en eShop</a>
+    <div>
+        <p>¿Eres nuevo en eShop?</p>
+        <a href="sign-up.php">Crear tu cuenta en eShop</a>
+    </div>
     <script src="../handlers/check-full-fields.js"></script>
 </body>
 </html>
