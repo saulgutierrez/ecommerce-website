@@ -98,6 +98,11 @@ form input[type=submit] {
     border-radius: 30px;
 }
 
+form input[type=submit]:hover {
+    background-color: #f7ca00;
+    cursor: pointer;
+}
+
 summary {
     display: flex;
     align-items: center;
@@ -112,4 +117,15 @@ summary {
 
 details[open] .icono {
     transform: rotate(180deg); /* Gira cuando está abierto */
+}
+
+.error-login {
+    border: 3px solid red !important;
+}
+
+.error-message {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: red;
+    margin: 0px 15px;
 }
