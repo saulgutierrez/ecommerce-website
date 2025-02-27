@@ -15,16 +15,16 @@
         </div>
         <div>eShop</div>
     </a>
-    <form method="POST">
+    <form method="POST" id="signUpForm">
         <label for="" class="title">Crear cuenta</label>
         <label for="name" class="name-text">Nombre</label>
-        <input type="text" name="name" placeholder="Nombre y apellido">
+        <input type="text" name="name" placeholder="Nombre y apellido" class="name-input">
         <label for="email" class="email-text">Número de celular o correo electrónico</label>
-        <input type="text" name="email">
+        <input type="text" name="email" class="email-input">
         <label for="password" class="pass-text">Contraseña</label>
-        <input type="password" name="password" placeholder="Debe tener al menos 6 caracteres">
+        <input type="password" name="password" placeholder="Debe tener al menos 6 caracteres" class="password-input">
         <label for="retype-pass" class="retype-pass">Vuelve a escribir la contraseña</label>
-        <input type="password" name="password">
+        <input type="password" name="password" class="retype-password-input">
         <input type="submit" value="Continuar" class="email-button"></input>
         <div class="message" id="message"></div>
         <hr>

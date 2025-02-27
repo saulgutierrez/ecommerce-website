@@ -115,3 +115,17 @@ hr {
     border-top: 1px solid #d5d9d9;
     width: 90%;
 }
+
+.error-sign-up {
+    border: 3px solid red !important;
+}
+
+.error-message-name,
+.error-message-email,
+.error-message-password {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: red;
+    width: 100%;
+    padding: 0px 15px;
+}
