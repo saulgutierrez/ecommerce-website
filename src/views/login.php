@@ -15,7 +15,7 @@
         </div>
         <div>eShop</div>
     </a>
-    <form action="login-password.php" method="POST">
+    <form method="POST">
         <label for="" class="title">Iniciar sesión</label>
         <label for="email" class="email-text">Direccion de email o numero de teléfono móvil</label>
         <input type="text" name="email">

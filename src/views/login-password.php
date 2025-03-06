@@ -1,6 +1,6 @@
 <?php
-    if (isset($_POST['email'])) {
-        $email = $_POST['email'];
+    if (isset($_GET['email'])) {
+        $email = $_GET['email'];
     }
 ?>
 
@@ -16,8 +16,9 @@
         <label for="title">Iniciar sesión</label>
         <h2><?php echo $email;?> <a href="login.php">Cambiar</a></h2>
         <label for="password">Contraseña</label>
-        <input type="password">
-        <input type="submit" value="Iniciar sesión" class="login-button">
+        <input type="password" name="password" id="password">
+        <input type="hidden" name="email" value="<?php echo $email;?>">
+        <input type="submit" value="Iniciar sesión" class="password-button">
         <div class="message" id="message"></div>
     </form>
     <script src="../handlers/check-password.js"></script>

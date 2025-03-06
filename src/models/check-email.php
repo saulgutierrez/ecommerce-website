@@ -11,7 +11,7 @@
 
         $email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
 
-        $sql = $conn->prepare("SELECT * FROM usuarios WHERE username = ?");
+        $sql = $conn->prepare("SELECT * FROM costumer WHERE username = ?");
 
         if ($sql) {
             $sql->bind_param("s", $email);

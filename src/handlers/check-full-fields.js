@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
             parentDiv.insertBefore(insertDiv, emailBtn);
         } else {
+            event.preventDefault();
             $.ajax({
                 url         :   '../models/check-email.php',
                 type        :   'POST',
@@ -28,7 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 dataType    :   'text',
                 success     :   function(res) {
                     if (res == 1) {
+                        event.preventDefault();
                         $('#message').html('Dirección de correo electrónico o número de teléfono móvil incorrecto o no válido. Corríjalo e inténtelo nuevamente.');
+                    } else {
+                        location.href = 'login-password.php?email=' + email;
                     }
                 }
             });
