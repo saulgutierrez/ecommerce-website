@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     let passwordBtn = document.querySelector('.password-button');
     let passwordInput = document.querySelector('input[name="password"]'); // Seleccionar el campo de texto
-    let emailInput = document.querySelector('input[name="email"]'); // Seleccionar el campo de texto
 
     $('#loginPasswordForm').on('submit', function (event) {
+        let password = passwordInput.value;
         event.preventDefault();
 
         var formData = new FormData(this);
