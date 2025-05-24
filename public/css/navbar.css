@@ -163,7 +163,7 @@ nav li:nth-child(5) a div {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    z-index: -1;
+    z-index: 10000;
 }
 
 .product-card {
@@ -176,7 +176,7 @@ nav li:nth-child(5) a div {
     padding: 20px;
     justify-content: space-between;
     gap: 20px;
-    z-index: -1;
+    z-index: 10000;
 }
 
 .product-card .imgBox {
